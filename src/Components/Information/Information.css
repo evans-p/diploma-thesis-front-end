@@ -1,0 +1,11 @@
+.Information {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.SettingsPanelForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SettingsPanelForm .setting-row {
+  padding: 7px 0px;
+  width: 300px;
+}
+@media (max-width: 380px) {
+  .SettingsPanelForm .setting-row {
+    padding: 7px 0px;
+    width: 250px;
+  }
+}
+
+.SettingsPanelForm .setting-label {
+  width: 20%;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.SettingsPanelForm .setting-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.SettingsPanelForm .language-radio [type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.SettingsPanelForm .language-radio-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.SettingsPanelForm .language-radio-image img {
+  width: 80%;
+  height: auto;
+}
+
+.SettingsPanelForm .language-radio p {
+  font-size: 0.7rem;
+}
+
+.SettingsPanelForm
+  .language-radio
+  [type="radio"]:checked
+  + .language-radio-image {
+  background-color: var(--main-navbar-color-shade);
+}
+
+.SettingsPanelForm .language-radio-image:hover {
+  transform: scale(1.1);
+}
+
+.SettingsPanelForm .submit {
+  margin: 10px 0px;
+  width: 100%;
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+.SettingsPanelForm .submit:hover {
+  color: var(--main-navbar-color);
+  background-color: var(--settings-panel-submit-font-color);
+}

@@ -1,0 +1,66 @@
+.IntegerInputBlockForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.IntegerInputBlockForm .inputs {
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.IntegerInputBlockForm .row {
+  padding: 10px 0px;
+  width: 300px;
+}
+@media (max-width: 380px) {
+  .IntegerInputBlockForm .row {
+    padding: 7px 0px;
+    width: 250px;
+  }
+}
+
+.IntegerInputBlockForm .button {
+  width: 100%;
+  margin: 3px 0px;
+}
+
+.IntegerInputBlockForm .flex {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.IntegerInputBlockForm .max-width {
+  width: 100%;
+}
+
+.IntegerInputBlockForm .submit-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+.IntegerInputBlockForm .submit-color:hover {
+  color: var(--main-navbar-color);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.IntegerInputBlockForm .delete-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--highlight-red);
+}
+
+.IntegerInputBlockForm .delete-color:hover {
+  color: var(--highlight-red);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.IntegerInputBlockForm .cancel-color {
+  color: #232323;
+  background-color: #e0e0e0;
+}
+
+.IntegerInputBlockForm .cancel-color:hover {
+  color: #23232360;
+  background-color: var(--settings-panel-submit-font-color);
+}

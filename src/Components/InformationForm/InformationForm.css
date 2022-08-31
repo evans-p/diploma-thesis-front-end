@@ -1,0 +1,64 @@
+.InformationForm {
+  width: 300px;
+  padding: 20px;
+  display: block;
+}
+
+.InformationForm .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.InformationForm .title {
+  margin: 5px 0px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.InformationForm .col {
+  width: 100%;
+  margin: 10px;
+}
+
+.InformationForm .submit {
+  width: 100%;
+  margin: 3px 0px;
+}
+
+.InformationForm .max-width {
+  margin: 5px 0px;
+  width: 100%;
+}
+
+.InformationForm .submit-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+.InformationForm .submit-color:hover {
+  color: var(--main-navbar-color);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.InformationForm .delete-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--highlight-red);
+}
+
+.InformationForm .delete-color:hover {
+  color: var(--highlight-red);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.InformationForm .cancel-color {
+  color: #232323;
+  background-color: #e0e0e0;
+}
+
+.InformationForm .cancel-color:hover {
+  color: #23232360;
+  background-color: var(--settings-panel-submit-font-color);
+}

@@ -1,0 +1,145 @@
+.ReferenceBlock {
+  display: flex;
+  position: relative;
+}
+
+.ReferenceBlock .block {
+  width: 220px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ReferenceBlock .info-error {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #f44336;
+  cursor: help;
+}
+
+.ReferenceBlock .block::after {
+  content: "";
+  margin-bottom: 5px;
+  height: 20%;
+}
+
+.round-border {
+  border-radius: 10px;
+}
+
+.ReferenceBlock .label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  height: 20%;
+}
+
+.ReferenceBlock .label .title {
+  margin-left: 15px;
+  max-width: 70%;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+/* .ReferenceBlock .image-container {
+  width: 100px;
+  height: 100px;
+} */
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.hexagon {
+  width: 100px;
+  height: 57.735px;
+  background: red;
+  position: relative;
+}
+.hexagon-before {
+  content: "";
+  position: absolute;
+  top: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 28.8675px solid;
+}
+.hexagon-after {
+  content: "";
+  position: absolute;
+  bottom: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 28.8675px solid;
+}
+
+.octagon {
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+
+.octagon-before {
+  width: 40px;
+  height: 0;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  border-bottom: 30px solid;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.octagon-after {
+  width: 40px;
+  height: 0;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  border-top: 30px solid;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+}
+
+.ReferenceBlock .arrow {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-left: 50px solid;
+}
+
+.ReferenceBlock .block-control {
+  position: absolute;
+  right: 100%;
+  top: 5px;
+}
+
+.ReferenceBlock .block-image {
+  width: 40px;
+  height: auto;
+}

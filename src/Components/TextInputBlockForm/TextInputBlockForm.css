@@ -1,0 +1,66 @@
+.TextInputBlockForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TextInputBlockForm .inputs {
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.TextInputBlockForm .row {
+  padding: 10px 0px;
+  width: 300px;
+}
+@media (max-width: 380px) {
+  .TextInputBlockForm .row {
+    padding: 7px 0px;
+    width: 250px;
+  }
+}
+
+.TextInputBlockForm .button {
+  width: 100%;
+  margin: 3px 0px;
+}
+
+.TextInputBlockForm .flex {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TextInputBlockForm .max-width {
+  width: 100%;
+}
+
+.TextInputBlockForm .submit-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+.TextInputBlockForm .submit-color:hover {
+  color: var(--main-navbar-color);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.TextInputBlockForm .delete-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--highlight-red);
+}
+
+.TextInputBlockForm .delete-color:hover {
+  color: var(--highlight-red);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.TextInputBlockForm .cancel-color {
+  color: #232323;
+  background-color: #e0e0e0;
+}
+
+.TextInputBlockForm .cancel-color:hover {
+  color: #23232360;
+  background-color: var(--settings-panel-submit-font-color);
+}

@@ -1,0 +1,50 @@
+.PhrasesInputForm {
+  width: 240px;
+  margin: 20px 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  cursor: text;
+  position: relative;
+}
+
+.PhrasesInputForm [type="text"] {
+  outline: none;
+  border-radius: inherit;
+  border: none;
+  height: 32px;
+}
+
+.PhrasesInputForm .form-content {
+  display: flex;
+  align-items: center;
+  margin-left: 3px;
+  flex-wrap: wrap;
+  border-radius: inherit;
+  width: 90%;
+}
+
+.PhrasesInputForm .close-button {
+  width: 10%;
+  height: 20px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.PhrasesInputForm .controller {
+  position: absolute;
+  left: 97.5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.PhrasesInputForm .controller .icon-button {
+  width: 20px;
+  padding: 5px;
+}
+
+.PhrasesInputForm .controller .icons {
+  width: 15px;
+  color: #fff;
+}

@@ -1,0 +1,66 @@
+.FloatInputBlockForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FloatInputBlockForm .inputs {
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.FloatInputBlockForm .row {
+  padding: 10px 0px;
+  width: 300px;
+}
+@media (max-width: 380px) {
+  .FloatInputBlockForm .row {
+    padding: 7px 0px;
+    width: 250px;
+  }
+}
+
+.FloatInputBlockForm .button {
+  width: 100%;
+  margin: 3px 0px;
+}
+
+.FloatInputBlockForm .flex {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.FloatInputBlockForm .max-width {
+  width: 100%;
+}
+
+.FloatInputBlockForm .submit-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+.FloatInputBlockForm .submit-color:hover {
+  color: var(--main-navbar-color);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.FloatInputBlockForm .delete-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--highlight-red);
+}
+
+.FloatInputBlockForm .delete-color:hover {
+  color: var(--highlight-red);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.FloatInputBlockForm .cancel-color {
+  color: #232323;
+  background-color: #e0e0e0;
+}
+
+.FloatInputBlockForm .cancel-color:hover {
+  color: #23232360;
+  background-color: var(--settings-panel-submit-font-color);
+}

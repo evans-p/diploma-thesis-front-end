@@ -1,13 +1,172 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  outline: none;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+body {
+  min-width: 300px;
+}
+:root {
+  /* --main-navbar-color: #0b5563; */
+  --main-navbar-color: #26547c;
+  --main-navbar-complementary-color: #bfb5af;
+  --main-navbar-color-shade: #4487c5;
+  --minibar-color: #1d3f5e;
+  --navbar-font-color: #ffffff;
+  --navbar-category-icon-color: #ffffff;
+  --settings-panel-backround-color: rgba(0, 0, 0, 0.5);
+  --settings-panel-color: #ffffff;
+  --settings-panel-font-color: #1f1f1f;
+  --settings-panel-submit-font-color: #fff;
+  --control-icon-color: #9e3f2c;
+  --main-color: #ffffff;
+  --footer-color: #dad7cd;
+  --light-gray-backround: #31313115;
+  --white-backround: #fff;
+  --highlight-red: #c1292e;
+  --navbar-block-color: #fff;
+  --action-block-bottom-color: #f1f1f1;
+  --action-block-icon-color: #fff;
+  --block-control-color: #adacb5;
+  --tooltip-color: #292929;
+  --input-block-backround-color: #d1cfcf;
+  --list-backround-color: #bdbdbd;
+  --branch-number-background-color: #ff0000;
+  --configuration-popover-main-color: #f2f2f2;
+  --configuration-popover-secondary-color: #26465f;
+  --settings-popover-main-color: #26465f;
+  --settings-popover-secondary-color: #08c399;
+  --settings-popover-font-color: #ffffff;
+  --settings-popover-border-color: #eabd00;
+}
+.justify-align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.action-error {
+  font-size: 0.75rem;
+}
+
+.dark-shadow {
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(49, 49, 49, 0.81);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(49, 49, 49, 0.81);
+  box-shadow: 0px 0px 5px 2px rgba(49, 49, 49, 0.81);
+}
+.white-shadow {
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(255, 253, 253, 0.5);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(255, 253, 253, 0.5);
+  box-shadow: 0px 0px 5px 2px rgba(255, 253, 253, 0.5);
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.inactive {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  opacity: 0.6;
+}
+
+.even {
+  background-color: var(--light-gray-backround);
+}
+
+.odd {
+  background-color: var(--white-backround);
+}
+
+/* ScrollBar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 420px) {
+  :root {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 380px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+/* -----ANIMATIONS----- */
+@keyframes flipper {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse-out {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes pulse-in {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

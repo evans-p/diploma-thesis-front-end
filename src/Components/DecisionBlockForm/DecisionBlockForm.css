@@ -1,0 +1,54 @@
+.DecisionBlockForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.DecisionBlockForm .inputs {
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.DecisionBlockForm .row {
+  padding: 10px 0px;
+  width: 300px;
+}
+@media (max-width: 380px) {
+  .DecisionBlockForm .row {
+    padding: 7px 0px;
+    width: 250px;
+  }
+}
+.DecisionBlockForm .max-width {
+  width: 100%;
+}
+.DecisionBlockForm .flex {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.DecisionBlockForm .submit {
+  width: 100%;
+  margin: 3px 0px;
+}
+
+.DecisionBlockForm .submit-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+.DecisionBlockForm .submit-color:hover {
+  color: var(--main-navbar-color);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.DecisionBlockForm .cancel-color {
+  color: #232323;
+  background-color: #e0e0e0;
+}
+
+.DecisionBlockForm .cancel-color:hover {
+  color: #23232360;
+  background-color: var(--settings-panel-submit-font-color);
+}

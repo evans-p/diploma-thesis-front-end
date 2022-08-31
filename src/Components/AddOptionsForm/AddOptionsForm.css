@@ -1,0 +1,49 @@
+.AddOptionsForm {
+  min-width: 290px;
+  padding: 10px;
+}
+.AddOptionsForm .title {
+  margin: 10px 0px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  text-align: center;
+}
+.AddOptionsForm .add-option {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.AddOptionsForm .add-option .textfield {
+  margin-bottom: 10px;
+}
+
+.list {
+  height: 300px;
+  overflow: scroll;
+}
+
+.AddOptionsForm .add-option .btn {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.AddOptionsForm .submit-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+.AddOptionsForm .submit-color:hover {
+  color: var(--main-navbar-color);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.AddOptionsForm .cancel-color {
+  color: #232323;
+  background-color: #e0e0e0;
+}
+
+.AddOptionsForm .cancel-color:hover {
+  color: #23232360;
+  background-color: var(--settings-panel-submit-font-color);
+}

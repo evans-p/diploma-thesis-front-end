@@ -1,0 +1,47 @@
+.LabeledIntegerInputForm {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.LabeledIntegerInputForm .form-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: inherit;
+  width: 90%;
+}
+
+.LabeledIntegerInputForm .label {
+  margin-left: 30px;
+  font-size: 1.2rem;
+  color: var(--settings-popover-font-color);
+}
+
+.LabeledIntegerInputForm [type="number"] {
+  text-align: center;
+  height: 25px;
+  width: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.LabeledIntegerInputForm .controller {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.LabeledIntegerInputForm .controller .icon-button {
+  width: 20px;
+  padding: 5px;
+}
+
+.LabeledIntegerInputForm .controller .icons {
+  width: 15px;
+  color: #fff;
+}

@@ -1,0 +1,86 @@
+.ActionBlock {
+  min-width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.ActionBlock .block-icons {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.ActionBlock .info-error {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: #f44336;
+  cursor: help;
+}
+
+.ActionBlock .block-icons .block-image {
+  width: 40px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.ActionBlock .block-label {
+  width: 100%;
+  height: 15%;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.ActionBlock .block-content {
+  min-width: 100%;
+  height: 55%;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: var(--action-block-bottom-color);
+}
+
+.ActionBlock .block-content .content {
+  min-width: 80%;
+  height: 70%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.ActionBlock .block-content .popover {
+  width: 45px;
+  height: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.ActionBlock .block-content .popover .popover-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.ActionBlock .block-content .popover .popover-image {
+  width: 30px;
+  cursor: pointer;
+}
+
+.ActionBlock .block-control {
+  position: absolute;
+  right: 100%;
+  top: 5px;
+}
+
+@media (max-width: 380px) {
+  .ActionBlock .block-control {
+    position: absolute;
+    right: 98%;
+    top: 5px;
+  }
+}

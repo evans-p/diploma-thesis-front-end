@@ -1,0 +1,9 @@
+.Main {
+  width: 100%;
+  min-height: 82vh;
+  margin-top: 15vh;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

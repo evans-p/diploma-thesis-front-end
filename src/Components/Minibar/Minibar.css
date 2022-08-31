@@ -1,0 +1,105 @@
+.Minibar {
+  position: fixed;
+  left: 0;
+  top: 15vh;
+  width: 100%;
+  height: 0;
+  background-color: var(--minibar-color);
+  color: var(--navbar-font-color);
+  transition: all 0.2s ease;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+}
+.Minibar-open {
+  height: 95px;
+}
+
+.Minibar .Minibar-content {
+  height: 95px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Minibar .half-width {
+  width: 50%;
+}
+
+.Minibar .block-components-width {
+  margin: 0px 30px;
+}
+
+.Minibar .popover-width {
+  margin: 0px 30px;
+}
+
+@media (max-width: 920px) {
+  .Minibar .popover-width {
+    margin: 0px 20px;
+  }
+}
+
+@media (max-width: 840px) {
+  .Minibar .popover-width {
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width: 820px) {
+  .Minibar .popover-width {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .popover-wrapper {
+    flex-wrap: wrap;
+    height: 190px;
+  }
+  .Minibar .popover-width {
+    width: 70%;
+    justify-content: space-between;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 700px) {
+  .popover-wrapper {
+    flex-wrap: wrap;
+    height: 190px;
+  }
+  .Minibar .popover-width {
+    width: 80%;
+    justify-content: space-between;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .popover-wrapper {
+    flex-wrap: wrap;
+    height: 190px;
+  }
+  .Minibar .popover-width {
+    width: 90%;
+    justify-content: space-between;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  .Minibar .block-components-width {
+    margin: 0px 20px;
+  }
+  .Minibar .half-width {
+    width: 70%;
+  }
+}
+@media (max-width: 480px) {
+  .Minibar .block-components-width {
+    margin: 0px;
+  }
+  .Minibar .half-width {
+    width: 90%;
+  }
+}

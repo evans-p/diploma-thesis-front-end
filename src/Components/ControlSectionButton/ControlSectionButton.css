@@ -1,0 +1,19 @@
+.ControlSectionButton {
+  width: 8vh;
+  height: 8vh;
+  position: fixed;
+  left: 7vh;
+  bottom: 7vh;
+  border-radius: 50%;
+  display: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--navbar-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+@media (max-width: 820px) {
+  .ControlSectionButton {
+    display: flex;
+  }
+}

@@ -1,0 +1,14 @@
+.DownloadButton {
+  width: 8vh;
+  height: 8vh;
+  position: fixed;
+  right: 7vh;
+  bottom: 7vh;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: var(--navbar-font-color);
+  background-color: var(--highlight-red);
+  /* transition: 0.2s all ease-in-out; */
+  display: flex;
+}

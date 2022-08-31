@@ -1,0 +1,47 @@
+.LabeledFloatInputForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.LabeledFloatInputForm .form-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: inherit;
+  width: 90%;
+}
+
+.LabeledFloatInputForm .label {
+  font-size: 1.2rem;
+  color: var(--settings-popover-font-color);
+  margin-left: 30px;
+}
+
+.LabeledFloatInputForm [type="number"] {
+  text-align: center;
+  height: 25px;
+  width: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.LabeledFloatInputForm .controller {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.LabeledFloatInputForm .controller .icon-button {
+  width: 20px;
+  padding: 5px;
+}
+
+.LabeledFloatInputForm .controller .icons {
+  width: 15px;
+  color: #fff;
+}

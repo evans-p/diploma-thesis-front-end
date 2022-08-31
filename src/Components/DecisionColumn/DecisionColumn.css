@@ -1,0 +1,34 @@
+.DecisionColumn {
+  width: 100px;
+  position: relative;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-left: 10px;
+}
+.DecisionColumn .block-image {
+  width: 100px;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.DecisionColumn .block-image img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+.DecisionColumn .branch-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.DecisionColumn .add-branch {
+  position: absolute;
+  bottom: -50px;
+  width: 100px;
+  height: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}

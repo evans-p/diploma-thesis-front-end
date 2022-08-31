@@ -1,0 +1,19 @@
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3vh;
+  background-color: var(--footer-color);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 50;
+}
+.Footer span {
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+.Footer i {
+  color: var(--highlight-red);
+}

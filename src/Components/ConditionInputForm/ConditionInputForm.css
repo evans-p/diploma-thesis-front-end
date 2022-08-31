@@ -1,0 +1,61 @@
+.ConditionInputForm {
+  margin: 10px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ConditionInputForm .controller {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ConditionInputForm .controller .icon-button {
+  width: 20px;
+  padding: 5px;
+}
+
+.ConditionInputForm .controller .icons {
+  width: 15px;
+  color: #fff;
+}
+
+.ConditionInputForm .content {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ConditionInputForm select,
+.ConditionInputForm [type="text"] {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+}
+
+.ConditionInputForm .content select:nth-child(2) {
+  width: 15%;
+}
+.ConditionInputForm .content select:nth-child(3) {
+  width: 35%;
+}
+.ConditionInputForm .content [type="text"]:nth-child(3) {
+  width: 35%;
+}
+.ConditionInputForm .content .width-30 {
+  width: 35%;
+}
+
+.ConditionInputForm .width-85 {
+  width: 85%;
+}
+
+.ConditionInputForm .max-width {
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+.ParameterInputForm {
+  width: 100%;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.ParameterInputForm .form-content {
+  margin: 0px 20px;
+}
+
+.ParameterInputForm .controller {
+  position: absolute;
+  right: -5px;
+  top: 0;
+}
+
+.ParameterInputForm .controller .icon-button {
+  width: 20px;
+  padding: 5px;
+}
+
+.ParameterInputForm .controller .icons {
+  width: 15px;
+  color: #fff;
+}
+
+.ParameterInputForm .buttons {
+  margin-top: 15px;
+}
+
+.ParameterInputForm .buttons button {
+  width: 70px;
+  height: 30px;
+  border-radius: 7px;
+  font-size: 0.7rem;
+  border: 1px solid var(--settings-popover-font-color);
+  background-color: var(--settings-popover-main-color);
+  color: var(--settings-popover-font-color);
+  cursor: pointer;
+  margin: 0px 15px;
+}
+
+.ParameterInputForm .buttons button:hover {
+  border: 1px solid var(--settings-popover-border-color);
+  background-color: var(--settings-popover-border-color);
+}

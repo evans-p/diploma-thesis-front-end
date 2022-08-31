@@ -1,0 +1,66 @@
+.ConditionOptionForm {
+  padding: 10px;
+  min-width: 200px;
+}
+
+.ConditionOptionForm .title {
+  margin: 5px 0px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ConditionOptionForm .max-width {
+  width: 100%;
+}
+
+.ConditionOptionForm .inputs {
+  padding: 10px;
+  max-height: 240px;
+  overflow-y: scroll;
+}
+
+.ConditionOptionForm .row {
+  padding: 10px 0px;
+}
+@media (max-width: 380px) {
+  .ConditionOptionForm .row {
+    padding: 7px 0px;
+  }
+}
+
+.ConditionOptionForm .flex {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ConditionOptionForm .submit {
+  width: 100%;
+  margin: 3px 0px;
+}
+
+.ConditionOptionForm .buttons {
+  margin-top: 20px;
+}
+
+.ConditionOptionForm .submit-color {
+  color: var(--settings-panel-submit-font-color);
+  background-color: var(--main-navbar-color);
+}
+
+.ConditionOptionForm .submit-color:hover {
+  color: var(--main-navbar-color);
+  background-color: var(--settings-panel-submit-font-color);
+}
+
+.ConditionOptionForm .cancel-color {
+  color: #232323;
+  background-color: #e0e0e0;
+}
+
+.ConditionOptionForm .cancel-color:hover {
+  color: #23232360;
+  background-color: var(--settings-panel-submit-font-color);
+}
